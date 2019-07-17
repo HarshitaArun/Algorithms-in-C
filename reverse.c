@@ -3,10 +3,11 @@
  
 int main()
 {
-   int n, reverse = 0;
+   int n, reverse = 0,m;
  
    printf("Enter a number to reverse\n");
    scanf("%d", &n);
+   m = n;
    while (n != 0)
    {
       reverse = reverse * 10;
@@ -15,6 +16,11 @@ int main()
    }
  
    printf("Reverse of entered number is = %d\n", reverse);
+   
+   if( m == reverse )
+	printf("It is a Palindrome");
+   else
+	printf("It is not a Palindrome");
        
    
       return 0;
