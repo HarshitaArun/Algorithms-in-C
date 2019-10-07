@@ -1,7 +1,7 @@
 // C program for bubble sort 
 #include <stdio.h>
  
-int main()
+void main()
 {
   int array[100], n, c, d, swap;
  
@@ -31,5 +31,4 @@ int main()
   for (c = 0; c < n; c++)
      printf("%d\n", array[c]);
  
-  return 0;
 }
